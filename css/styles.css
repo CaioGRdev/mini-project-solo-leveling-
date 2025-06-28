@@ -1,0 +1,117 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f0f0f0;
+    background-color: #0f0f0f;
+}
+
+h1,
+h2 {
+    color: #7b63f1;
+
+}
+
+/*container global*/
+.container {
+    max-width: 1100px;
+    /*max largura*/
+    background-color: #1c1c2e;
+    position: relative;
+    margin: 50px auto;
+    /*auto e autocentralizar na esquerda e na direita*/
+    padding: 20px 50px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/*cabeçalho*/
+.cabecalho {
+    text-align: center;
+}
+
+.main_title {
+    font-size: 40px;
+}
+
+.main_paragraph {
+    font-style: italic;
+}
+
+/*imagem em destaque*/
+.main_image {
+    display: block;
+    /*ocupar toda largura disponivel e adicionar quebra de linha para os proximos termos*/
+    text-align: center;
+    margin-top: 30px;
+    margin: 0 auto; /*Centraliza horizontalmente. e necessario display block*/
+    
+    
+}
+.main_image img{
+    max-width: 100%; /*Garante que a imagem nunca ultrapasse em largura o container do site.*/
+    width: auto;
+    margin: 0 auto;
+}
+
+.main_image figcaption{
+    font-style: oblique;
+    color: blueviolet;
+}
+/*seção 2*/
+.secao_2 {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #3b82f6;
+    border-bottom: 1px dashed #3b82f6;
+}
+
+/*citação*/
+/* para estilizar container ou seja estruturas dentro de outra e so encadea aq no css*/
+.quotes_container {
+    background-color: #0f0f0f;
+    padding: 30px;
+}
+
+.quotes_container blockquote {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.quotes_container p {
+    font-style: italic;
+}
+
+/*personagens*/
+.characters_container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #3b82f6;
+    border-bottom: 1px dashed #3b82f6;
+
+}
+
+.characters_container li {
+    height: 30px;
+}
+
+/*imagem bold, destaque*/
+.image_bold {
+    font-weight: bold;
+    text-align: center;
+}
+.image_bold img{
+    display: block;
+    height: auto;
+    max-width: 100%;
+    
+
+}
+
+/*propagando do jogo*/
+.moreinfo_container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #3b82f6;
+    border-bottom: 1px dashed #3b82f6;
+}
